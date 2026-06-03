@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cards
+  datasource:
+    url: jdbc:h2:mem:cardsdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+server:
+  port: 8081
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to cards API"
+  contactDetails:
+    name: "Cards Support"
+    email: "cards@fintech.com"
+    onCallSupport: "8888888888"

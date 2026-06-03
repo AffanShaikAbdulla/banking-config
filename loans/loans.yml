@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: loans
+  datasource:
+    url: jdbc:h2:mem:loansdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+server:
+  port: 8082
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to loans API"
+  contactDetails:
+    name: "Loans Support"
+    email: "loans@fintech.com"
+    onCallSupport: "7777777777"
