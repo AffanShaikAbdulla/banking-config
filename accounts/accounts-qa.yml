@@ -2,7 +2,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to account QA related APIs"
+  message: "Welcome to account QA(quality Analysi) related APIs"
   contactDetails:
     name: "Ramakrisha QA Lead"
     onCallSupport: "901999991"
